@@ -16,6 +16,11 @@ body {
     padding: 16px; 
 }
 
+ul {
+    list-style-type: none;
+    /* remove the dot on list */
+}
+
 button {
     padding: 10px 20px;
     background-color: #A0522D;
