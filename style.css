@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #F5F5DC
+}
+
+.title {
+    text-align: center;
+}
+
+.base {
+    background-color: #C9A74F;
+    text-align: center;
+    margin: 20px;
+    padding: 16px; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #A0522D;
+    color: #F5F5DC;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #D32F2F;
+    color: #F5F5DC;
+}
