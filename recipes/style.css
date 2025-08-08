@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #F5F5DC
+}
+
+button {
+    background-color: #A0522D;
+    color: #F5F5DC;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #D32F2F;
+    color: #F5F5DC;
+}
+
+.title {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p, li{
+    line-height: 1.4;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+ol::marker {
+    font-weight: bolder;
+}
+
+.base {
+    background-color: #C9A74F;
+    margin: 20px;
+    padding: 16px 50px; 
+}
+
+.disclaimer {
+    font-size: x-small;
+}
